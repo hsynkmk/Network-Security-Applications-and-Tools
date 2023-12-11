@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Firewalls - Network Security Applications and Tools</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Firewalls";
+        var mkdocs_page_input_path = "Firewalls.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Network Security Applications and Tools
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Introduction/">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Basic%20Security%20Practices/">Basic Security Practices</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Firewalls</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#firewall-history">Firewall History</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types-of-firewalls">Types of Firewalls</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#benefits-of-firewalls">Benefits of Firewalls</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#disadvantages-of-traditional-firewalls">Disadvantages of Traditional Firewalls:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#advantages-of-network-firewalls">Advantages of Network Firewalls:</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../IDSIPS/">IDS/IPS</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Antivirus%20Software/">Antivirus Software</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Cryptography%20and%20Encryption/">Cryptography and Encryption</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Integration%20and%20Management%20of%20Security%20Applications/">Integration and Management of Security Applications</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Network%20Security%20Tools/">Network Security Tools</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Network Security Applications and Tools</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Firewalls</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="firewalls">Firewalls</h2>
+<p>A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to establish a barrier between a trusted internal network and untrusted external networks, such as the internet. Firewalls are essential components in network security and play a crucial role in preventing unauthorized access, monitoring traffic, and protecting against various cyber threats.</p>
+<h3 id="firewall-history">Firewall History</h3>
+<p>Firewalls, essential components in modern cybersecurity, have evolved significantly since their inception in the late 1980s. Initially functioning as packet filters, which examined data packets transferred between computers, firewalls have undergone several generations of advancements, adapting to the changing landscape of cyber threats.</p>
+<p><strong>Gen 1 Virus (Late 1980s):</strong></p>
+<p>In the late 1980s, the first generation of firewalls emerged in response to virus attacks on stand-alone PCs that were affecting businesses. These early firewalls primarily focused on protecting individual computers from malicious software.</p>
+<p><strong>Gen 2 Networks (Mid 1990s):</strong></p>
+<p>By the mid-1990s, as internet usage became widespread, attacks from the internet posed threats to businesses. This led to the development of firewalls designed to protect entire networks, marking the second generation of firewall technology.</p>
+<p><strong>Gen 3 Applications (Early 2000s):</strong></p>
+<p>The early 2000s witnessed the third generation of firewalls, driven by cyber threats exploiting vulnerabilities in applications. This era saw the rise of Intrusion Prevention Systems (IPS) products, which aimed to proactively prevent intrusions by identifying and blocking potential threats.</p>
+<p><strong>Gen 4 Payload (Approx. 2010):</strong></p>
+<p>Around 2010, the fourth generation of firewalls addressed the rise of targeted, unknown, evasive, and polymorphic attacks. This prompted the development of anti-bot and sandboxing products, enhancing the ability to detect and mitigate sophisticated cyber threats.</p>
+<p><strong>Gen 5 Mega (Approx. 2017):</strong></p>
+<p>The fifth generation, starting around 2017, is characterized by large-scale, multi-vector mega attacks using advanced attack tools. This era is driving the development of advanced threat prevention solutions, emphasizing the need for robust cybersecurity measures.</p>
+<p>As technology continues to advance, firewalls remain a critical component in safeguarding digital assets and protecting against evolving cyber threats.</p>
+<h3 id="types-of-firewalls">Types of Firewalls</h3>
+<p><strong>Proxy Firewall:</strong></p>
+<ul>
+<li>The proxy firewall acts as a gateway for a specific application, serving as an intermediary between two networks.</li>
+<li>Provides content caching and enhances security by preventing direct connections from outside the network.</li>
+<li>May impact throughput capabilities and the range of supported applications.</li>
+</ul>
+<p><strong>Stateful Inspection Firewall:</strong></p>
+<ul>
+<li>It allows or blocks traffic based on state, port, and protocol, monitoring activity from connection initiation to closure.</li>
+<li>Decisions are made using administrator-defined rules and context derived from previous connections and related packets.</li>
+</ul>
+<p><strong>Unified Threat Management (UTM) Firewall</strong></p>
+<ul>
+<li>UTM devices combine stateful inspection firewall functions with intrusion prevention and antivirus capabilities, often incorporating additional services and cloud management.</li>
+<li>Focuses on simplicity and ease of use for comprehensive security.</li>
+</ul>
+<p><strong>Next-Generation Firewall (NGFW)</strong></p>
+<p>Evolving beyond simple packet filtering, NGFWs block modern threats, such as advanced malware and application-layer attacks.</p>
+<p>Gartner Criteria:</p>
+<ul>
+<li>Intelligence-based access control with stateful inspection.</li>
+<li>Integrated intrusion prevention system (IPS).</li>
+<li>Application awareness and control for identifying and blocking risky apps.</li>
+<li>Upgrade paths for future information feeds.</li>
+<li>Techniques to address evolving security threats.</li>
+<li>URL filtering based on geolocation and reputation.</li>
+</ul>
+<p><strong>Threat-Focused NGFW</strong></p>
+<p>Builds upon traditional NGFW capabilities by providing advanced threat detection and remediation.</p>
+<p>Advantages:</p>
+<ul>
+<li>Context awareness for identifying assets most at risk.</li>
+<li>Intelligent security automation to react quickly to attacks.</li>
+<li>Network and endpoint event correlation for detecting evasive or suspicious activity.</li>
+<li>Retrospective security for continuous monitoring even after initial inspection.</li>
+</ul>
+<p><strong>Virtual Firewall:</strong></p>
+<ul>
+<li>Deployed as a virtual appliance in private or public clouds, a virtual firewall monitors and secures traffic across physical and virtual networks.</li>
+<li>Often used in software-defined networks (SDN) for increased flexibility.</li>
+</ul>
+<p><strong>Cloud Native Firewall:</strong></p>
+<p>Modernizes the approach to securing applications and workload infrastructure at scale in cloud environments.</p>
+<p>Advantages:</p>
+<ul>
+<li>Agile and elastic security for dynamic cloud environments.</li>
+<li>Multi-tenant capability for shared cloud resources.</li>
+<li>Smart load balancing for efficient traffic distribution.</li>
+</ul>
+<h3 id="benefits-of-firewalls">Benefits of Firewalls</h3>
+<p>Firewalls serve as the first line of defense against external threats, malware, and unauthorized access attempts, offering several key advantages.</p>
+<p><strong>Monitors Network Traffic:</strong> Firewalls begin by monitoring and analyzing network traffic, allowing them to identify potential threats.</p>
+<ul>
+<li>Leverages preestablished rules and filters to protect systems.</li>
+<li>Enables a well-trained IT team to manage protection levels based on observed traffic patterns.</li>
+</ul>
+<p><strong>Stops Virus Attacks:</strong> Firewalls control system entry points, preventing virus attacks that could otherwise cripple digital operations.</p>
+<ul>
+<li>Essential defense against the constant emergence of new threats.</li>
+<li>Mitigates potential immeasurable damage resulting from a successful virus attack.</li>
+</ul>
+<p><strong>Prevents Hacking:</strong> In an era of increased digital operations, firewalls play a crucial role in preventing unauthorized access attempts by hackers.</p>
+<ul>
+<li>Safeguards data, emails, and systems from unauthorized access.</li>
+<li>Acts as a deterrent, steering hackers towards easier targets.</li>
+</ul>
+<p><strong>Stops Spyware:</strong> Firewalls act as a blockade against spyware and malware, preventing unauthorized access and data theft.</p>
+<ul>
+<li>Safeguards systems against infiltration by malicious programs.</li>
+<li>Maintains control over computers and prevents data theft.</li>
+</ul>
+<p><strong>Promotes Privacy:</strong> Firewalls actively contribute to privacy by proactively securing data, fostering trust among clients and customers.</p>
+<ul>
+<li>Builds a secure environment that clients can trust.</li>
+<li>Acts as a competitive advantage and selling point for data-sensitive businesses.</li>
+</ul>
+<h3 id="disadvantages-of-traditional-firewalls">Disadvantages of Traditional Firewalls:</h3>
+<p><strong>Application Awareness Limitations:</strong> Traditional firewalls lack the depth of application awareness present in Next-Generation Firewalls (NGFWs), limiting control over specific application usage.</p>
+<p><strong>Issues with Network Speed:</strong> Traditional firewalls can create bottlenecks, slowing down operations at data inspection points and impeding scalability.</p>
+<p><strong>Logistical Drawbacks:</strong> Many traditional firewalls struggle to adapt to changing company systems, requiring extensive management and maintenance and proving less effective in cloud-based environments.</p>
+<p><strong>Lack of Evolution Capabilities:</strong> Traditional firewalls may struggle to keep up with the evolving security threat landscape, making it challenging to provide effective support without regular upgrades.</p>
+<h3 id="advantages-of-network-firewalls">Advantages of Network Firewalls:</h3>
+<p><strong>Versatility:</strong> Network Firewalls provide flexibility and versatility by allowing real-time upgrades and adaptations to changing network security requirements.</p>
+<p><strong>Intelligence Port Control:</strong> Network Firewalls offer multi-layered protection, including application-level security, allowing for better control and transparency in data flow.</p>
+<p><strong>Simple Infrastructure:</strong> Network Firewalls streamline network security, making it easier to deploy new policies across the entire network from a single device.</p>
+<p><strong>Updated Threat Protection:</strong> Network Firewalls integrate various security measures into one product, promoting cooperation between components and enhancing overall protection.</p>
+<p><strong>Consistent Network Speed:</strong> Network Firewalls enable consistent network speed, allowing for continuous improvement and expansion of protection without compromising operational speed.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Basic%20Security%20Practices/" class="btn btn-neutral float-left" title="Basic Security Practices"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../IDSIPS/" class="btn btn-neutral float-right" title="IDS/IPS">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Basic%20Security%20Practices/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../IDSIPS/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>IDS/IPS - Network Security Applications and Tools</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "IDS/IPS";
+        var mkdocs_page_input_path = "IDSIPS.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Network Security Applications and Tools
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Introduction/">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Basic%20Security%20Practices/">Basic Security Practices</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Firewalls/">Firewalls</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">IDS/IPS</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#benefits-of-idsips">Benefits of IDS/IPS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types-of-intrusion-detection-systems-ids">Types of Intrusion Detection Systems (IDS)</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Antivirus%20Software/">Antivirus Software</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Cryptography%20and%20Encryption/">Cryptography and Encryption</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Integration%20and%20Management%20of%20Security%20Applications/">Integration and Management of Security Applications</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Network%20Security%20Tools/">Network Security Tools</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Network Security Applications and Tools</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">IDS/IPS</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="idsips-intrusion-detection-system-intrusion-prevention-system">IDS/IPS (Intrusion Detection System / Intrusion Prevention System)</h2>
+<p>Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) play pivotal roles in monitoring, detecting, and mitigating potential threats. These security measures are essential components, often integrated into next-generation firewalls (NGFW), to fortify network defenses against unauthorized access and malicious activities.</p>
+<p><strong>Intrusion Detection System (IDS):</strong> IDS involves the continuous monitoring of network traffic to identify signs of potential intrusions or imminent threats. It analyzes network activities, such as exploit attempts, to detect incidents that may compromise the security of the network.</p>
+<p><strong>Intrusion Prevention System (IPS):</strong> IPS extends the capabilities of IDS by not only detecting incidents but actively preventing them. This involves taking measures such as dropping malicious packets or terminating suspicious sessions to thwart potential threats.</p>
+<h3 id="benefits-of-idsips">Benefits of IDS/IPS</h3>
+<p><strong>Monitoring for Malicious Behavior:</strong> IDS/IPS monitors all network traffic, identifying known malicious behavior and potential threats. This proactive approach is crucial for early threat detection.</p>
+<p><strong>Blocking Exploit Attempts:</strong> Attackers often attempt to exploit vulnerabilities within devices or software. IDS/IPS identifies and blocks these exploit attempts before they can compromise network endpoints.</p>
+<p><strong>Necessary Security Technologies:</strong> Deployed at the network edge and within data centers, IDS/IPS are indispensable security technologies. They act as a frontline defense, stopping attackers during the information-gathering phase.</p>
+<h3 id="types-of-intrusion-detection-systems-ids">Types of Intrusion Detection Systems (IDS)</h3>
+<p>Intrusion Detection Systems (IDS) serve as critical components in network security, providing vigilant monitoring to identify and respond to potential threats. There are various types of IDS, each tailored to specific aspects of network and host security.</p>
+<p><strong>Network Intrusion Detection System (NIDS)</strong></p>
+<ul>
+<li>NIDS is strategically placed within the network to analyze traffic from all devices on the network.</li>
+<li>It monitors the entire network for signs of attacks or abnormal activities.</li>
+<li>
+<p>Alerts are generated and sent to administrators when potential threats are detected.</p>
+</li>
+<li>
+<p>Comprehensive Network Coverage.</p>
+</li>
+<li>Centralized Monitoring and Analysis.</li>
+<li>Focuses on Network-Wide Anomalies.</li>
+</ul>
+<p><strong>Host Intrusion Detection System (HIDS)</strong></p>
+<ul>
+<li>HIDS operates on individual hosts or devices within the network.</li>
+<li>It monitors both incoming and outgoing traffic on specific hosts.</li>
+<li>
+<p>Alerts administrators when suspicious activities, anomalies, or potential threats are detected on a specific host.</p>
+</li>
+<li>
+<p>Host-Centric Monitoring.</p>
+</li>
+<li>Provides Detailed Insights into Individual Hosts.</li>
+<li>Enhanced Visibility into Host-Level Anomalies.</li>
+</ul>
+<p><strong>Protocol-based Intrusion Detection System (PIDS)</strong></p>
+<ul>
+<li>PIDS focuses on examining the protocols employed between users or devices and servers.</li>
+<li>It checks for any deviations or abnormalities in the communication protocols.</li>
+<li>
+<p>Alerts are triggered when protocol violations or anomalies are detected.</p>
+</li>
+<li>
+<p>Protocol-Centric Monitoring.</p>
+</li>
+<li>Emphasizes Protocol-Level Anomalies.</li>
+<li>Targets Suspicious Communication Patterns.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Firewalls/" class="btn btn-neutral float-left" title="Firewalls"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Antivirus%20Software/" class="btn btn-neutral float-right" title="Antivirus Software">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Firewalls/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Antivirus%20Software/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

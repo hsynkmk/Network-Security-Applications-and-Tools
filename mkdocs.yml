@@ -1,0 +1,13 @@
+site_name: Network Security Applications and Tools
+
+nav:
+    - Home: index.md
+    - Introduction: Introduction.md
+    - Basic Security Practices: Basic Security Practices.md
+    - Firewalls: Firewalls.md
+    - IDS/IPS: IDSIPS.md
+    - Antivirus Software: Antivirus Software.md
+    - Cryptography and Encryption: Cryptography and Encryption.md
+    - Integration and Management of Security Applications: Integration and Management of Security Applications.md
+    - Network Security Tools: Network Security Tools.md
+theme: readthedocs

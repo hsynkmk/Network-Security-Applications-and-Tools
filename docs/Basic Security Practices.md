@@ -1,0 +1,3 @@
+# Basic Security Practices
+
+In the face of today's digital threats, network security requires the adoption of basic security practices to protect the information assets of organizations and individuals. Under this heading, important security measures such as firewalls, IDS/IPS and antivirus software are examined. These applications are considered the cornerstones of network security strategies and play a critical role in ensuring the integrity, confidentiality and availability of the network.
